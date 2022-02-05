@@ -20,23 +20,23 @@ while True:
     menu()
     choice = int(input('Please select one of the above option: '))
     if choice == 1:
-        a = int(input('Enter First number value: '))
-        b = int(input('Enter Second number value: '))
+        a = float(input('Enter First number value: '))
+        b = float(input('Enter Second number value: '))
         obj=Cals(a,b)
         print("Result: ",obj.add())
     elif choice == 2:
-        a = int(input('Enter First number value: '))
-        b = int(input('Enter Second number value: '))
+        a = float(input('Enter First number value: '))
+        b = float(input('Enter Second number value: '))
         obj=Cals(a,b)
         print("Result: ",obj.sub())
     elif choice == 3:
-        a = int(input('Enter First number value: '))
-        b = int(input('Enter Second number value: '))
+        a = float(input('Enter First number value: '))
+        b = float(input('Enter Second number value: '))
         obj=Cals(a,b)
         print("Result: ",obj.multiply())    
     elif choice == 4:
-        a = int(input('Enter First number value: '))
-        b = int(input('Enter Second number value: '))
+        a = float(input('Enter First number value: '))
+        b = float(input('Enter Second number value: '))
         obj=Cals(a,b)
         print("Result: ",obj.divide())
     elif choice == 0:
@@ -44,5 +44,4 @@ while True:
         break
     else:
         print('Invalid option') 
-        break       
-print()
+        break 
